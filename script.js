@@ -35,7 +35,7 @@ function hover(){
    this.style.backgroundColor='#'+Math.floor(Math.random()*16777215).toString(16)
     }
     a=this.className.split('b')[1]
-    if(a<10){
+    if(a<11){
         this.className= "square b"+(parseInt(a)+1)
     }
   console.log(getComputedStyle(this).getPropertyValue("filter"))
